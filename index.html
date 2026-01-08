@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reymart Llona - Portfolio</title>
+    <meta name="description" content="Reymart Llona - Computer Engineering Student Portfolio">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <div class="logo-circle">
+                <span>RL</span>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+        <div class="nav-social">
+            <a href="mailto:Reymartllona003@gmail.com" class="nav-social-link" title="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </a>
+            <a href="https://www.facebook.com/reylynllona03" target="_blank" class="nav-social-link" title="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/reymart-llona-388263386" target="_blank" class="nav-social-link"
+                title="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+            </a>
+            <a href="https://github.com/reymartllona003-boop" target="_blank" class="nav-social-link" title="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+            </a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Left Side - Team Member -->
+        <div class="hero-left">
+            <div class="team-section">
+                <div class="team-label">
+                    <span class="label-text">My Portfolio</span>
+                    <div class="label-line"></div>
+                </div>
+
+                <div class="profile-container">
+                    <div class="geometric-shapes">
+                        <div class="shape shape-semicircle-1"></div>
+                        <div class="shape shape-semicircle-2"></div>
+                        <div class="shape shape-circle-1"></div>
+                        <div class="shape shape-dots"></div>
+                    </div>
+                    <div class="profile-circle">
+                        <img src="images/profile-artistic.png" alt="Mary Rose" class="profile-img">
+                    </div>
+                </div>
+
+                <div class="team-info">
+                    <p class="team-name">Computer Engineering Student</p>
+                    <h2 class="team-role">Reymart Llona</h2>
+                    <p class="team-name">From Rizal Technological University</p>
+                    <a href="#about" class="explore-link">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side - Hero Content -->
+        <div class="hero-right" id="about">
+            <div class="hero-content">
+                <h1 class="hero-title">About Me</h1>
+                <p class="hero-description">
+                    I'm a Computer Engineering student with a strong interest in both hardware and software. I love
+                    exploring how technology connects coding, electronics, and innovation to solve real-world problems.
+                    My focus areas include embedded systems, IoT, and robotics. I'm motivated to keep learning, gain
+                    practical experience, and build a career that contributes to the growth of modern technology.
+                </p>
+
+                <!-- Tabbed Section -->
+                <div class="tabs-container">
+                    <div class="tabs-header">
+                        <button class="tab-btn active" data-tab="skills">Skills</button>
+                        <button class="tab-btn" data-tab="experience">Experience</button>
+                        <button class="tab-btn" data-tab="education">Education</button>
+                    </div>
+
+                    <div class="tabs-content">
+                        <!-- Skills Tab -->
+                        <div class="tab-panel active" id="skills">
+                            <div class="skill-item">
+                                <span class="skill-label">Programming</span>
+                                <span class="skill-value">Python, C#, C++, Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Hardware & Electronics</span>
+                                <span class="skill-value">Arduino, Raspberry Pi, Sensor, Microcontroller</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Additional Skills</span>
+                                <span class="skill-value">Team Collaboration, Problem Solving, Critical Thinking</span>
+                            </div>
+                        </div>
+
+                        <!-- Experience Tab -->
+                        <div class="tab-panel" id="experience">
+                            <div class="skill-item">
+                                <span class="skill-label">Projects</span>
+                                <span class="skill-value">Smart AI Kilo Bot: Intelligent Weighing and Pricing<br> Smart
+                                    Locker System using Raspberry Pi<br> CureSecure: Pharmacy POS & Inventory
+                                    System</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Research</span>
+                                <span class="skill-value">Four-in-One Vital Sign Sensor with BMI Calculation <br> using
+                                    AI and IoT for Health Risk Prediction</span>
+                            </div>
+                        </div>
+
+                        <!-- Education Tab -->
+                        <div class="tab-panel" id="education">
+                            <div class="skill-item">
+                                <span class="skill-label">Current</span>
+                                <span class="skill-value">Computer Engineering</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">University</span>
+                                <span class="skill-value">Rizal Technological University</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#portfolio" class="cta-btn">VIEW MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Gallery Section -->
+    <section class="works-section" id="works">
+        <div class="works-container">
+            <div class="works-header">
+                <h2 class="works-title">See <span class="highlight">My Works</span></h2>
+                <p class="works-subtitle">Explore a collection of my recent projects and prototypes. I have showcased my
+                    expertise in embedded systems, AI/Machine Learning, and full-stack development.</p>
+            </div>
+
+            <div class="works-grid">
+                <!-- Project 1 -->
+                <div class="work-card" data-project="kilo-bot">
+                    <div class="work-image">
+                        <img src="images/kilo-bot.png" alt="Smart AI Kilo Bot">
+                        <div class="work-overlay">
+                            <h3 class="work-title">Smart AI Kilo Bot</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="work-card" data-project="smart-locker">
+                    <div class="work-image">
+                        <img src="images/smart-locker.png" alt="Smart Locker System">
+                        <div class="work-overlay">
+                            <h3 class="work-title">Smart Locker System</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="work-card" data-project="curesecure">
+                    <div class="work-image">
+                        <img src="images/curesecure-team.png" alt="CureSecure Pharmacy">
+                        <div class="work-overlay">
+                            <h3 class="work-title">CureSecure Pharmacy</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="work-card" data-project="vital-sign">
+                    <div class="work-image">
+                        <img src="images/vital-sign.jpg" alt="Vital Sign Sensor">
+                        <div class="work-overlay">
+                            <h3 class="work-title">Vital Sign Sensor</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="images/ai-weight-compliance.jpg" alt="AI Weight Compliance System">
+                        <div class="work-overlay">
+                            <h3 class="work-title">AI Weight Compliance</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="images/shift-register.png" alt="Shift Register Circuit">
+                        <div class="work-overlay">
+                            <h3 class="work-title">Shift Register Circuit</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="images/kilo-bot-setup.png" alt="Kilo Bot Setup">
+                        <div class="work-overlay">
+                            <h3 class="work-title">Kilo Bot Setup</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="images/smart-locker-box.png" alt="Smart Locker Hardware">
+                        <div class="work-overlay">
+                            <h3 class="work-title">Smart Locker Hardware</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="images/gps-tracker.jpg" alt="GPS Tracker System">
+                        <div class="work-overlay">
+                            <h3 class="work-title">GPS Tracker System</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="portfolio-header">
+            <h2 class="portfolio-title">My Projects</h2>
+            <p class="portfolio-subtitle">These are my top academic projects completed throughout my studies.</p>
+        </div>
+
+        <div class="portfolio-container">
+            <!-- Project 1 - Image Left -->
+            <div class="project-item">
+                <div class="project-image-wrapper">
+                    <img src="images/kilo-bot.png" alt="Smart AI Kilo Bot" class="project-img">
+                </div>
+                <div class="project-info">
+                    <span class="project-category">EMBEDDED SYSTEMS</span>
+                    <h3 class="project-name">Smart AI Kilo Bot: Intelligent Weighing and Pricing System</h3>
+                    <p class="project-description">The AI Kilo Bot for market use is an intelligent weighing system that
+                        automatically measures product weight, calculates the total price, and provides
+                        accurate, real-time results. Designed for busy marketplaces, it enhances efficiency, reduces
+                        human error, and ensures fast, secure, and reliable
+                        transactions for both vendors and customers.</p>
+                    <a href="#" class="project-link" data-project="kilo-bot">See Details →</a>
+                </div>
+            </div>
+
+            <!-- Project 2 - Image Right -->
+            <div class="project-item project-reverse">
+                <div class="project-image-wrapper">
+                    <img src="images/smart-locker.png" alt="Smart Locker System" class="project-img">
+                </div>
+                <div class="project-info">
+                    <span class="project-category">IoT</span>
+                    <h3 class="project-name">Smart Locker System using Raspberry Pi</h3>
+                    <p class="project-description">A secure IoT-based locker system powered by Raspberry Pi, featuring
+                        keypad authentication, LED status indicators, and remote monitoring capabilities for enhanced
+                        security and convenience.</p>
+                    <a href="#" class="project-link" data-project="smart-locker">See Details →</a>
+                </div>
+            </div>
+
+            <!-- Project 3 - Image Left -->
+            <div class="project-item">
+                <div class="project-image-wrapper">
+                    <img src="images/curesecure-team.png" alt="CureSecure Pharmacy POS" class="project-img">
+                </div>
+                <div class="project-info">
+                    <span class="project-category">SOFTWARE DEVELOPMENT</span>
+                    <h3 class="project-name">CureSecure: Pharmacy POS & Inventory System</h3>
+                    <p class="project-description">A comprehensive pharmacy management solution built with C# WinForms,
+                        featuring point-of-sale functionality, real-time inventory tracking, and detailed analytics for
+                        efficient pharmacy operations.</p>
+                    <a href="#" class="project-link" data-project="curesecure">See Details →</a>
+                </div>
+            </div>
+
+            <!-- Project 4 - Image Right -->
+            <div class="project-item project-reverse">
+                <div class="project-image-wrapper">
+                    <img src="images/vital-sign.jpg" alt="Vital Sign Sensor" class="project-img">
+                </div>
+                <div class="project-info">
+                    <span class="project-category">RESEARCH</span>
+                    <h3 class="project-name">Four-in-One Vital Sign Sensor with BMI Calculation using AI and IoT</h3>
+                    <p class="project-description">The Four-in-One Vital Sign Sensor with BMI Calculation is an advanced
+                        health-monitoring device that measures key body metrics and automatically
+                        computes BMI for quick assessments. Using AI and IoT, it provides real-time health risk
+                        predictions, offering users a smarter, faster, and more reliable
+                        way to monitor their overall wellness.</p>
+                    <a href="#" class="project-link" data-project="vital-sign">See Details →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="contact-profile">
+                    <div class="profile-avatar">
+                        <img src="images/profile-artistic.png" alt="Reymart Llona" class="contact-profile-img">
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <h2 class="contact-title">I'd love to hear from you.</h2>
+                <p class="contact-subtitle">Got a project you would like me to work on? Or how about just a friendly
+                    chat?</p>
+
+                <div class="social-links">
+                    <a href="mailto:Reymartllona003@gmail.com" class="social-link email-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>E-mail</span>
+                    </a>
+                    <a href="https://www.facebook.com/reylynllona03" target="_blank" class="social-link facebook-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/reymart-llona-388263386" target="_blank"
+                        class="social-link linkedin-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/reymartllona003-boop" target="_blank" class="social-link github-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://drive.google.com/file/d/18ks_58ZP2zidH6sKxQGVJBYm3ITomi-U/view?usp=drivesdk"
+                        target="_blank" class="social-link resume-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span>Resume</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Project Image">
+                    <img id="modalImage2" src="" alt="Additional Project Image"
+                        style="margin-top: 1rem; display: none;">
+                </div>
+                <div class="modal-info">
+                    <span id="modalCategory" class="modal-category"></span>
+                    <h2 id="modalTitle" class="modal-title"></h2>
+                    <p id="modalDescription" class="modal-description"></p>
+                    <div id="modalDetails" class="modal-details"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
