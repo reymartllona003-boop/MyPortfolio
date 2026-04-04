@@ -31,14 +31,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                     block: 'start'
                 });
 
-                // Add a subtle highlight effect to the About Me section when clicked
-                if (href === '#about') {
-                    const heroRight = document.querySelector('.hero-right');
-                    heroRight.style.animation = 'none';
-                    setTimeout(() => {
-                        heroRight.style.animation = 'fadeInRight 0.8s ease-out';
-                    }, 10);
-                }
+                // Smooth scroll handled above
             }
         }
     });
@@ -112,6 +105,39 @@ if (viewMoreBtn) {
 
 // Project data with detailed information
 const projectData = {
+    'internship-sp-madrid': {
+        category: 'DATA ANALYST',
+        title: 'Data Analyst Intern at S.P Madrid',
+        image: 'images/internship-ubp-home.png',
+        description: 'During my internship at S.P Madrid, I worked extensively on processing, cleaning, and visualizing datasets to derive actionable insights, utilizing a comprehensive suite of data tools.',
+        details: {
+            overview: 'During my internship, I served as a Data Analyst Intern where I was responsible for handling data processing and developing automation solutions to improve workflow efficiency. Throughout this experience, I enhanced my technical skills in Microsoft Excel, SQL, Python, UiPath, data visualization, data cleaning, and data analysis. I worked under the guidance of two supervisors, regularly reporting my progress and outputs while ensuring accuracy and timeliness of deliverables. One of my key contributions was creating multiple automation tools that significantly reduced manual work and improved processing speed. These automations involved data cleaning, report generation, template preservation, and database integration using lookup and mapping functions. Overall, this internship strengthened my analytical thinking, problem-solving skills, and ability to work in a professional and fast-paced environment.',
+            features: [
+                'Developed multiple automation tools to reduce manual work and improve processing speed',
+                'Handled data processing, cleaning, report generation, and template preservation',
+                'Executed database integration using lookup and mapping functions',
+                'Improved workflow efficiency and ensured accuracy of deliverables'
+            ],
+            technologies: ['Microsoft Excel', 'SQL', 'Python', 'UiPath', 'Data Visualization Tools']
+        }
+    },
+    'internship-ubp': {
+        category: 'AUTOMATION TOOLS',
+        title: 'UBP RECOV Masterlist Toolkit',
+        image: 'images/internship-ubp-tools.png',
+        description: 'Built an all-in-one toolkit for managing endorsement data, generating CHCODEs, and updating the recovery masterlist.',
+        details: {
+            overview: 'In order to streamline tedious tasks during my internship, I developed a suite of 10 automated tools tailored for the UBP RECOV masterlist workflow. This suite handles everything from multi-sheet merging to data validation.',
+            features: [
+                'Automated CHCODE generation and category renaming',
+                'DataGrid XLOOKUP matching for instant results',
+                'Multi-sheet merging and auto column mapping',
+                'Direct XML modification integration',
+                'Processing duplicates and handling pullout records'
+            ],
+            technologies: ['Python', 'Streamlit', 'Excel/CSV Processing', 'Pandas']
+        }
+    },
     'kilo-bot': {
         category: 'EMBEDDED SYSTEMS',
         title: 'Smart AI Kilo Bot: Intelligent Weighing and Pricing System',
