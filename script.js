@@ -127,15 +127,15 @@ const projectData = {
         image: 'images/internship-ubp-tools.png',
         description: 'Built an all-in-one toolkit for managing endorsement data, generating CHCODEs, and updating the recovery masterlist.',
         details: {
-            overview: 'In order to streamline tedious tasks during my internship, I developed a suite of 10 automated tools tailored for the UBP RECOV masterlist workflow. This suite handles everything from multi-sheet merging to data validation.',
+            overview: 'As a Data Analyst Intern, my primary duty was to develop automation solutions for the Recovery Team and the Business Loan Team. I successfully completed a total of 11 automations that improved workflow efficiency and accuracy. I created systems that can efficiently clean data, check and remove duplicates, separate and organize datasets, and eliminate unnecessary information. I also ensured that report templates were preserved while automating the generation of accurate and structured reports. In addition, I integrated functions such as data mapping, lookup processes, and database referencing to improve data accuracy and consistency. Overall, my contributions significantly reduced manual workload, minimized errors, and increased processing speed, helping streamline the team’s operations.',
             features: [
-                'Automated CHCODE generation and category renaming',
-                'DataGrid XLOOKUP matching for instant results',
-                'Multi-sheet merging and auto column mapping',
-                'Direct XML modification integration',
-                'Processing duplicates and handling pullout records'
+                'Successfully completed 11 automations for Recovery and Business Loan teams',
+                'Advanced data cleaning, duplicate removal, and dataset organization systems',
+                'Preserved report templates while automating generation of structured reports',
+                'Integrated data mapping, lookup processes, and database referencing',
+                'Significantly reduced manual workload and increased processing speed'
             ],
-            technologies: ['Python', 'Streamlit', 'Excel/CSV Processing', 'Pandas']
+            technologies: ['Python', 'Streamlit', 'Excel/CSV Processing', 'Pandas', 'Other Python Libraries']
         }
     },
     'kilo-bot': {
